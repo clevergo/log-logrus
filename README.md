@@ -1,2 +1,11 @@
-# Package Template
-[![Build Status](https://travis-ci.org/clevergo/____.svg?branch=master)](https://travis-ci.org/clevergo/____) [![Coverage Status](https://coveralls.io/repos/github/clevergo/____/badge.svg?branch=master)](https://coveralls.io/github/clevergo/____?branch=master)  [![GoDoc](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/clevergo/____) [![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/____)](https://goreportcard.com/report/github.com/clevergo/____) [![Release](https://img.shields.io/github/release/clevergo/____.svg?style=flat-square)](https://github.com/clevergo/____/releases)
+# logrus logger adapter
+[![Build Status](https://travis-ci.org/clevergo/logruslog.svg?branch=master)](https://travis-ci.org/clevergo/logruslog)
+[![Coverage Status](https://coveralls.io/repos/github/clevergo/logruslog/badge.svg?branch=master)](https://coveralls.io/github/clevergo/logruslog?branch=master)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/clevergo/logruslog)
+[![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/logruslog)](https://goreportcard.com/report/github.com/clevergo/logruslog)
+[![Release](https://img.shields.io/github/release/clevergo/logruslog.svg?style=flat-square)](https://github.com/clevergo/logruslog/releases)
+
+## Usage
+
+```go
+```
