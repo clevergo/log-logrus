@@ -1,4 +1,4 @@
-module github.com/clevergo/logruslog
+module github.com/clevergo/log-logrus
 
 go 1.13
 
