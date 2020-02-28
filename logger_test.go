@@ -11,6 +11,28 @@ import (
 )
 
 func TestNew(t *testing.T) {
-	logrusLogger := logrus.New()
-	_ := New(logrusLogger)
+	_ = New(logrus.New())
+}
+
+func ExampleNew() {
+	logger := New(logrus.New())
+	logger.Debug("debug")
+	logger.Debugf("debugf")
+	logger.Debugln("debugln")
+
+	logger.Info("info")
+	logger.Infof("infof")
+	logger.Infoln("infoln")
+
+	logger.Warn("warn")
+	logger.Warnf("warnf")
+	logger.Warnln("warnln")
+
+	logger.Error("error")
+	logger.Errorf("errorf")
+	logger.Errorln("errorln")
+
+	//logger.Fatal("fatal")
+	//logger.Fatalf("fatalf")
+	//logger.Fatalln("fatalln")
 }
